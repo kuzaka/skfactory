@@ -1,8 +1,6 @@
 ---
 - hosts: localhost
   become: true
-  vars:
-    mysql_root_password: pass
 
   tasks:
     - name: start mysql server
